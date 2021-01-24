@@ -55,7 +55,7 @@
     <!--which screen effect options should be show-->
     <integer name="screen_effect_supported">7</integer>
     <!--whether support the new automatic brightness logic-->
-    <bool name="support_autobrightness_optimize">true</bool>
+    <bool name="support_autobrightness_optimize">false</bool>
     <!--whether the device supports wapi-->
     <bool name="support_wapi">true</bool>
     <!--whether the device is mediatek-->
@@ -129,7 +129,7 @@
     <!--whether support pause recording in camera-->
     <bool name="support_camera_video_pause">true</bool>
     <!--whether support boosting screen brightness in camera-->
-    <bool name="support_camera_boost_brightness">true</bool>
+    <bool name="support_camera_boost_brightness">false</bool>
     <!-- whether support dynamic light spot in portrait module  -->
     <bool name="support_camera_dynamic_light_spot">true</bool>
     <!--whether taking lower size panorama in camera-->
